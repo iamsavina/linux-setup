@@ -7,8 +7,8 @@ error_handler() {
 
 trap error_handler ERR
 
-sudo apt-get remove docker docker-engine docker.io containerd runc
-echo 'old versions successfully uninstalled (if existed)'
+sudo apt-get remove docker docker-engine docker.io containerd runc || true
+echo 'old versions successfully uninstalled (if existed) || Errors were ignored'
 
 sudo apt-get -y update
 echo 'updating succeed'
