@@ -24,10 +24,10 @@ echo \
   $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 echo 'set up the stable repository succeed'
 
-sudo apt-get update
+sudo apt-get -y update
 echo 'updating succeed'
 
-sudo apt-get install docker-ce docker-ce-cli containerd.io
+sudo apt-get -y install docker-ce docker-ce-cli containerd.io
 echo 'docker engine succeed'
 
 sudo docker run hello-world
