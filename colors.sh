@@ -8,6 +8,16 @@ echo -e "\e[1;35m This is magenta text \e[0m"
 echo -e "\e[1;36m This is red cyan \e[0m"
 echo -e "\e[1;37m This is red white \e[0m"
 
+echo ""
+
+echo -e "\e[1;40m black \e[0m"
+echo -e "\e[1;41m red \e[0m"
+echo -e "\e[1;42m green \e[0m"
+echo -e "\e[1;43m yellow \e[0m"
+echo -e "\e[1;44m blue \e[0m"
+echo -e "\e[1;45m magenta \e[0m"
+echo -e "\e[1;46m cyan \e[0m"
+echo -e "\e[1;47m white \e[0m"
 #font
 # reset = 0, 
 # black = 30, 
