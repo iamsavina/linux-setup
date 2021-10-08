@@ -8,6 +8,6 @@ error_handler() {
 trap error_handler ERR
 
 sudo timedatectl set-timezone Asia/Colombo
-echo 'Successfully set timezone to UTC+530'
+echo -e "\e[1;32m Succesfully set timezone to UTC+530 \e[0m"
 
 timedatectl
